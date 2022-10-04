@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Inicio de git_update.sh"
 VERSION=""
 
 # get parameters
@@ -61,5 +62,6 @@ else
 fi
 
 echo ::set-output name=new-version::$NEW_TAG
+echo "Final de git_update.sh"
 
 exit 0
