@@ -9,7 +9,7 @@ async function run() {
         
         const src = __dirname;
         console.log('3.-git_update con variable versionType');
-        console.log(${versionType});
+        console.log(versionType);
         await exec.exec(`${src}/git_update.sh -v ${versionType}`);
     } catch (error) {
         core.setFailed(error.message);
