@@ -1,8 +1,8 @@
 ---
 name: Increment Git Tag
-description: Increment git tag based on the provided version type
+description: Increments git tag based on the provided version type
 inputs:
-  version-type: 
+  version-type:
     description: Provide version type [major, minor, patch]
     required: true
     default: patch
