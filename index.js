@@ -4,7 +4,7 @@ const exec = require("@actions/exec");
 async function run() {
     try {
         console.log('1.-Principio');
-        console.log('2.-core.getInput('version-type')');
+        console.log('2.-core.getInput(version-type)');
         const versionType = core.getInput('version-type');
         
         const src = __dirname;
