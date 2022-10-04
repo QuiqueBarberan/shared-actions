@@ -57,7 +57,7 @@ if [ -z "$NEEDS_TAG" ]; then
   git push --tags
   git push
 else
-  echo "Already a tag on this commit"
+  echo "Already a tag on this commit "
 fi
 
 echo ::set-output name=new-version::$NEW_TAG
